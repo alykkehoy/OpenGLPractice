@@ -74,7 +74,7 @@ GL/glext.h
 GL/glu.h
 -
 
-C:/Users/Anders/CLionProjects/OpenGLTemplate/Shader.h
+C:/Users/anders/CLionProjects/OpenGLTemplate/Shader.h
 glad/glad.h
 -
 string
@@ -86,13 +86,13 @@ sstream
 iostream
 -
 
-C:/Users/Anders/CLionProjects/OpenGLTemplate/main.cpp
+C:/Users/anders/CLionProjects/OpenGLTemplate/main.cpp
 glad/glad.h
 -
 GLFW/glfw3.h
 -
 Shader.h
-C:/Users/Anders/CLionProjects/OpenGLTemplate/Shader.h
+C:/Users/anders/CLionProjects/OpenGLTemplate/Shader.h
 iostream
 -
 

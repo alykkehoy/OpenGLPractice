@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Anders/CLionProjects/OpenGLTemplate
+# Install script for directory: C:/Users/anders/CLionProjects/OpenGLTemplate
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/cmake_install.cmake")
+  include("C:/Users/anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/cmake_install.cmake")
 
 endif()
 
@@ -41,5 +41,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Anders/CLionProjects/OpenGLTemplate/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/anders/CLionProjects/OpenGLTemplate/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
