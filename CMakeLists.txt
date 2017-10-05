@@ -10,7 +10,7 @@ set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 add_subdirectory(glfw)
 include_directories(glad/include)
 
-set(SOURCE_FILES main.cpp glad/src/glad.c Shader.h)
+set(SOURCE_FILES main.cpp glad/src/glad.c Shader.h stb_image.h stb_image.cpp)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(OpenGLTemplate ${SOURCE_FILES})

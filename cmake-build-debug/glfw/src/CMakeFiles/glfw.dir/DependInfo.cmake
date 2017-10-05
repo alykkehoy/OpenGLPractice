@@ -4,20 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/anders/CLionProjects/OpenGLTemplate/glfw/src/context.c" "C:/Users/anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
-  "C:/Users/anders/CLionProjects/OpenGLTemplate/glfw/src/egl_context.c" "C:/Users/anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
-  "C:/Users/anders/CLionProjects/OpenGLTemplate/glfw/src/init.c" "C:/Users/anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
-  "C:/Users/anders/CLionProjects/OpenGLTemplate/glfw/src/input.c" "C:/Users/anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
-  "C:/Users/anders/CLionProjects/OpenGLTemplate/glfw/src/monitor.c" "C:/Users/anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
-  "C:/Users/anders/CLionProjects/OpenGLTemplate/glfw/src/vulkan.c" "C:/Users/anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
-  "C:/Users/anders/CLionProjects/OpenGLTemplate/glfw/src/wgl_context.c" "C:/Users/anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
-  "C:/Users/anders/CLionProjects/OpenGLTemplate/glfw/src/win32_init.c" "C:/Users/anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
-  "C:/Users/anders/CLionProjects/OpenGLTemplate/glfw/src/win32_joystick.c" "C:/Users/anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
-  "C:/Users/anders/CLionProjects/OpenGLTemplate/glfw/src/win32_monitor.c" "C:/Users/anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
-  "C:/Users/anders/CLionProjects/OpenGLTemplate/glfw/src/win32_time.c" "C:/Users/anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
-  "C:/Users/anders/CLionProjects/OpenGLTemplate/glfw/src/win32_tls.c" "C:/Users/anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj"
-  "C:/Users/anders/CLionProjects/OpenGLTemplate/glfw/src/win32_window.c" "C:/Users/anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
-  "C:/Users/anders/CLionProjects/OpenGLTemplate/glfw/src/window.c" "C:/Users/anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
+  "C:/Users/Anders/CLionProjects/OpenGLTemplate/glfw/src/context.c" "C:/Users/Anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
+  "C:/Users/Anders/CLionProjects/OpenGLTemplate/glfw/src/egl_context.c" "C:/Users/Anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+  "C:/Users/Anders/CLionProjects/OpenGLTemplate/glfw/src/init.c" "C:/Users/Anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
+  "C:/Users/Anders/CLionProjects/OpenGLTemplate/glfw/src/input.c" "C:/Users/Anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
+  "C:/Users/Anders/CLionProjects/OpenGLTemplate/glfw/src/monitor.c" "C:/Users/Anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
+  "C:/Users/Anders/CLionProjects/OpenGLTemplate/glfw/src/vulkan.c" "C:/Users/Anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+  "C:/Users/Anders/CLionProjects/OpenGLTemplate/glfw/src/wgl_context.c" "C:/Users/Anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+  "C:/Users/Anders/CLionProjects/OpenGLTemplate/glfw/src/win32_init.c" "C:/Users/Anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+  "C:/Users/Anders/CLionProjects/OpenGLTemplate/glfw/src/win32_joystick.c" "C:/Users/Anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+  "C:/Users/Anders/CLionProjects/OpenGLTemplate/glfw/src/win32_monitor.c" "C:/Users/Anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+  "C:/Users/Anders/CLionProjects/OpenGLTemplate/glfw/src/win32_time.c" "C:/Users/Anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+  "C:/Users/Anders/CLionProjects/OpenGLTemplate/glfw/src/win32_tls.c" "C:/Users/Anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj"
+  "C:/Users/Anders/CLionProjects/OpenGLTemplate/glfw/src/win32_window.c" "C:/Users/Anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+  "C:/Users/Anders/CLionProjects/OpenGLTemplate/glfw/src/window.c" "C:/Users/Anders/CLionProjects/OpenGLTemplate/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

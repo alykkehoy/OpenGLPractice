@@ -10,4 +10,8 @@ CMakeFiles/OpenGLTemplate.dir/main.cpp.obj: ../glad/include/glad/glad.h
 CMakeFiles/OpenGLTemplate.dir/main.cpp.obj: ../glfw/include/GLFW/glfw3.h
 CMakeFiles/OpenGLTemplate.dir/main.cpp.obj: ../Shader.h
 CMakeFiles/OpenGLTemplate.dir/main.cpp.obj: ../main.cpp
+CMakeFiles/OpenGLTemplate.dir/main.cpp.obj: ../stb_image.h
+
+CMakeFiles/OpenGLTemplate.dir/stb_image.cpp.obj: ../stb_image.cpp
+CMakeFiles/OpenGLTemplate.dir/stb_image.cpp.obj: ../stb_image.h
 

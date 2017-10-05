@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/OpenGLTemplate.dir/main.cpp.obj"
   "CMakeFiles/OpenGLTemplate.dir/glad/src/glad.c.obj"
+  "CMakeFiles/OpenGLTemplate.dir/stb_image.cpp.obj"
   "OpenGLTemplate.pdb"
   "OpenGLTemplate.exe"
   "OpenGLTemplate.exe.manifest"
