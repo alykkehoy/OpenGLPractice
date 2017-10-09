@@ -95,6 +95,12 @@ Shader.h
 C:/Users/Anders/CLionProjects/OpenGLTemplate/Shader.h
 stb_image.h
 C:/Users/Anders/CLionProjects/OpenGLTemplate/stb_image.h
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+glm/gtc/type_ptr.hpp
+-
 iostream
 -
 

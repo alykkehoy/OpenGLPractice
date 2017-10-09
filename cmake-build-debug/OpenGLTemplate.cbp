@@ -25,6 +25,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Users/Anders/CLionProjects/OpenGLTemplate/glad/include"/>
+					<Add directory="C:/Users/Anders/CLionProjects/OpenGLTemplate/glm"/>
 					<Add directory="C:/Users/Anders/CLionProjects/OpenGLTemplate/glfw/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
@@ -49,6 +50,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Users/Anders/CLionProjects/OpenGLTemplate/glad/include"/>
+					<Add directory="C:/Users/Anders/CLionProjects/OpenGLTemplate/glm"/>
 					<Add directory="C:/Users/Anders/CLionProjects/OpenGLTemplate/glfw/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>

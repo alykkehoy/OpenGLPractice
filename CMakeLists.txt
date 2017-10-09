@@ -9,11 +9,12 @@ set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 
 add_subdirectory(glfw)
 include_directories(glad/include)
+include_directories(glm)
+
 
 set(SOURCE_FILES main.cpp glad/src/glad.c Shader.h stb_image.h stb_image.cpp)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(OpenGLTemplate ${SOURCE_FILES})
 
-target_link_libraries(OpenGLTemplate glfw gdi32 opengl32)
-target_link_libraries(OpenGLTemplate ${OPENGL_gl_LIBRARY})
+target_link_libraries(OpenGLTemplate ${OPENGL_gl_LIBRARY} glfw gdi32 opengl32)
