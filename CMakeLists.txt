@@ -12,7 +12,7 @@ include_directories(glad/include)
 include_directories(glm)
 
 
-set(SOURCE_FILES main.cpp glad/src/glad.c Shader.h stb_image.h stb_image.cpp)
+set(SOURCE_FILES main.cpp glad/src/glad.c Shader.h stb_image.h stb_image.cpp Camera.h)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(OpenGLTemplate ${SOURCE_FILES})

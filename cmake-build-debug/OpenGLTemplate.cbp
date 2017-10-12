@@ -196,6 +196,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLTemplate/Camera.h">
+			<Option target="OpenGLTemplate"/>
+		</Unit>
 		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLTemplate/Shader.h">
 			<Option target="OpenGLTemplate"/>
 		</Unit>
