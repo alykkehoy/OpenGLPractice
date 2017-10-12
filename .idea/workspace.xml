@@ -14,17 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32a6c369-816e-4b5e-bb8c-6ec39e84afa8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTemplate.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTemplate.dir/objects.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shader.h" afterPath="$PROJECT_DIR$/Shader.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTemplate.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTemplate.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTemplate.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTemplate.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTemplate.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTemplate.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/OpenGLTemplate.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenGLTemplate.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shaders/basicShader.frag" afterPath="$PROJECT_DIR$/shaders/basicShader.frag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shaders/basicShader.vert" afterPath="$PROJECT_DIR$/shaders/basicShader.vert" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -50,8 +40,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            <state relative-caret-position="452">
+              <caret line="233" column="61" lean-forward="false" selection-start-line="233" selection-start-column="61" selection-end-line="233" selection-end-column="61" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
                 <element signature="e#122#144#0" expanded="true" />
@@ -64,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/Camera.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-14">
-              <caret line="71" column="11" lean-forward="true" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+              <caret line="71" column="11" lean-forward="false" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
               <folding>
                 <element signature="e#77#99#0" expanded="true" />
               </folding>
@@ -253,12 +243,12 @@
       <workItem from="1506967549115" duration="2008000" />
       <workItem from="1507507114097" duration="9126000" />
       <workItem from="1507607290067" duration="8536000" />
-      <workItem from="1507766311044" duration="2753000" />
+      <workItem from="1507766311044" duration="2943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51949000" />
+    <option name="totallyTimeSpent" value="52139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
@@ -638,7 +628,7 @@
     <entry file="file://$PROJECT_DIR$/Camera.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
-          <caret line="71" column="11" lean-forward="true" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+          <caret line="71" column="11" lean-forward="false" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
           <folding>
             <element signature="e#77#99#0" expanded="true" />
           </folding>
@@ -647,8 +637,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        <state relative-caret-position="452">
+          <caret line="233" column="61" lean-forward="false" selection-start-line="233" selection-start-column="61" selection-end-line="233" selection-end-column="61" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
             <element signature="e#122#144#0" expanded="true" />
