@@ -4,7 +4,7 @@
 CMakeFiles/OpenGLTemplate.dir/glad/src/glad.c.obj
  ../glad/include/KHR/khrplatform.h
  ../glad/include/glad/glad.h
- C:/Users/Anders/CLionProjects/OpenGLTemplate/glad/src/glad.c
+ C:/Users/anders/CLionProjects/OpenGLTemplate/glad/src/glad.c
 CMakeFiles/OpenGLTemplate.dir/main.cpp.obj
  ../glad/include/KHR/khrplatform.h
  ../glad/include/glad/glad.h
@@ -110,10 +110,10 @@ CMakeFiles/OpenGLTemplate.dir/main.cpp.obj
  ../glm/glm/vec3.hpp
  ../glm/glm/vec4.hpp
  ../glm/glm/vector_relational.hpp
- C:/Users/Anders/CLionProjects/OpenGLTemplate/Camera.h
- C:/Users/Anders/CLionProjects/OpenGLTemplate/Shader.h
- C:/Users/Anders/CLionProjects/OpenGLTemplate/main.cpp
- C:/Users/Anders/CLionProjects/OpenGLTemplate/stb_image.h
+ C:/Users/anders/CLionProjects/OpenGLTemplate/Camera.h
+ C:/Users/anders/CLionProjects/OpenGLTemplate/Shader.h
+ C:/Users/anders/CLionProjects/OpenGLTemplate/main.cpp
+ C:/Users/anders/CLionProjects/OpenGLTemplate/stb_image.h
 CMakeFiles/OpenGLTemplate.dir/stb_image.cpp.obj
- C:/Users/Anders/CLionProjects/OpenGLTemplate/stb_image.cpp
- C:/Users/Anders/CLionProjects/OpenGLTemplate/stb_image.h
+ C:/Users/anders/CLionProjects/OpenGLTemplate/stb_image.cpp
+ C:/Users/anders/CLionProjects/OpenGLTemplate/stb_image.h

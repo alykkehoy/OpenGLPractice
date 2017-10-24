@@ -45,7 +45,7 @@ int main()
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
     // glfw window creation
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "OpenGL-practice", NULL, NULL);
     if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -159,8 +159,8 @@ int main()
         processInput(window);
 
         //light position
-        glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
-        lightPos = glm::vec4(lightPos, 1.0f) * glm::rotate(glm::mat4(), -(float)glfwGetTime() * 1.0f, glm::vec3(0.0f, 0.0f, 1.0f));
+        glm::vec3 lightPos(-1.2f, 2.0f, -2.0f);
+        lightPos = glm::vec4(lightPos, 1.0f) * glm::rotate(glm::mat4(), (float)glfwGetTime() * 1.0f, glm::vec3(0.0f, 0.0f, 1.0f));
 
         // render
         glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
@@ -183,9 +183,14 @@ int main()
         glm::mat4 model;
         testShader.setMat4("model", model);
         testShader.setVec3("lightPos", lightPos);
+        testShader.setVec3("cameraPos", camera.Position);
 
         // render box
         glBindVertexArray(VAO);
+        glDrawArrays(GL_TRIANGLES, 0, 36);
+
+        model = glm::translate(model, glm::vec3(-1.5f, -0.5f, -1.0f));
+        testShader.setMat4("model", model);
         glDrawArrays(GL_TRIANGLES, 0, 36);
 
         //render light box
@@ -215,8 +220,7 @@ int main()
 }
 
 // process all input: query GLFW whether relevant keys are pressed/released this frame and react accordingly
-void processInput(GLFWwindow *window)
-{
+void processInput(GLFWwindow *window) {
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
 
@@ -228,6 +232,12 @@ void processInput(GLFWwindow *window)
         camera.ProcessKeyboard(LEFT, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
         camera.ProcessKeyboard(RIGHT, deltaTime);
+    if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) {
+        if(glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS)
+            camera.ProcessKeyboard(DOWN, deltaTime);
+        else
+            camera.ProcessKeyboard(UP, deltaTime);
+    }
 }
 
 // glfw: whenever the window size changed (by OS or user resize) this callback function executes

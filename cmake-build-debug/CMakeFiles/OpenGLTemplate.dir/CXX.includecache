@@ -874,7 +874,7 @@ detail/type_vec4.hpp
 detail/func_vector_relational.hpp
 ../glm/glm/detail/func_vector_relational.hpp
 
-C:/Users/Anders/CLionProjects/OpenGLTemplate/Camera.h
+C:/Users/anders/CLionProjects/OpenGLTemplate/Camera.h
 glad/glad.h
 -
 glm/glm.hpp
@@ -884,7 +884,7 @@ glm/gtc/matrix_transform.hpp
 vector
 -
 
-C:/Users/Anders/CLionProjects/OpenGLTemplate/Shader.h
+C:/Users/anders/CLionProjects/OpenGLTemplate/Shader.h
 glad/glad.h
 -
 glm/glm.hpp
@@ -898,15 +898,15 @@ sstream
 iostream
 -
 
-C:/Users/Anders/CLionProjects/OpenGLTemplate/main.cpp
+C:/Users/anders/CLionProjects/OpenGLTemplate/main.cpp
 glad/glad.h
 -
 GLFW/glfw3.h
 -
 Shader.h
-C:/Users/Anders/CLionProjects/OpenGLTemplate/Shader.h
+C:/Users/anders/CLionProjects/OpenGLTemplate/Shader.h
 stb_image.h
-C:/Users/Anders/CLionProjects/OpenGLTemplate/stb_image.h
+C:/Users/anders/CLionProjects/OpenGLTemplate/stb_image.h
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
@@ -914,17 +914,17 @@ glm/gtc/matrix_transform.hpp
 glm/gtc/type_ptr.hpp
 -
 Camera.h
-C:/Users/Anders/CLionProjects/OpenGLTemplate/Camera.h
+C:/Users/anders/CLionProjects/OpenGLTemplate/Camera.h
 iostream
 -
 
-C:/Users/Anders/CLionProjects/OpenGLTemplate/stb_image.cpp
+C:/Users/anders/CLionProjects/OpenGLTemplate/stb_image.cpp
 stb_image.h
-C:/Users/Anders/CLionProjects/OpenGLTemplate/stb_image.h
+C:/Users/anders/CLionProjects/OpenGLTemplate/stb_image.h
 
-C:/Users/Anders/CLionProjects/OpenGLTemplate/stb_image.h
+C:/Users/anders/CLionProjects/OpenGLTemplate/stb_image.h
 stb_image.h
-C:/Users/Anders/CLionProjects/OpenGLTemplate/stb_image.h
+C:/Users/anders/CLionProjects/OpenGLTemplate/stb_image.h
 stdio.h
 -
 stdarg.h

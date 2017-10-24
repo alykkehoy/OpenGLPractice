@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Anders\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\172.3968.17\bin\cmake\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\anders\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\172.3968.17\bin\cmake\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Anders\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\172.3968.17\bin\cmake\bin\cmake.exe -E remove -f
+RM = C:\Users\anders\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\172.3968.17\bin\cmake\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Anders\CLionProjects\OpenGLTemplate
+CMAKE_SOURCE_DIR = C:\Users\anders\CLionProjects\OpenGLTemplate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Anders\CLionProjects\OpenGLTemplate\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\anders\CLionProjects\OpenGLTemplate\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OpenGLTemplate.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/OpenGLTemplate.dir/flags.make
 CMakeFiles/OpenGLTemplate.dir/main.cpp.obj: CMakeFiles/OpenGLTemplate.dir/flags.make
 CMakeFiles/OpenGLTemplate.dir/main.cpp.obj: CMakeFiles/OpenGLTemplate.dir/includes_CXX.rsp
 CMakeFiles/OpenGLTemplate.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anders\CLionProjects\OpenGLTemplate\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGLTemplate.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenGLTemplate.dir\main.cpp.obj -c C:\Users\Anders\CLionProjects\OpenGLTemplate\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\anders\CLionProjects\OpenGLTemplate\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGLTemplate.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenGLTemplate.dir\main.cpp.obj -c C:\Users\anders\CLionProjects\OpenGLTemplate\main.cpp
 
 CMakeFiles/OpenGLTemplate.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLTemplate.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Anders\CLionProjects\OpenGLTemplate\main.cpp > CMakeFiles\OpenGLTemplate.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\anders\CLionProjects\OpenGLTemplate\main.cpp > CMakeFiles\OpenGLTemplate.dir\main.cpp.i
 
 CMakeFiles/OpenGLTemplate.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLTemplate.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Anders\CLionProjects\OpenGLTemplate\main.cpp -o CMakeFiles\OpenGLTemplate.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anders\CLionProjects\OpenGLTemplate\main.cpp -o CMakeFiles\OpenGLTemplate.dir\main.cpp.s
 
 CMakeFiles/OpenGLTemplate.dir/main.cpp.obj.requires:
 
@@ -84,16 +84,16 @@ CMakeFiles/OpenGLTemplate.dir/main.cpp.obj.provides.build: CMakeFiles/OpenGLTemp
 CMakeFiles/OpenGLTemplate.dir/glad/src/glad.c.obj: CMakeFiles/OpenGLTemplate.dir/flags.make
 CMakeFiles/OpenGLTemplate.dir/glad/src/glad.c.obj: CMakeFiles/OpenGLTemplate.dir/includes_C.rsp
 CMakeFiles/OpenGLTemplate.dir/glad/src/glad.c.obj: ../glad/src/glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anders\CLionProjects\OpenGLTemplate\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OpenGLTemplate.dir/glad/src/glad.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OpenGLTemplate.dir\glad\src\glad.c.obj   -c C:\Users\Anders\CLionProjects\OpenGLTemplate\glad\src\glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\anders\CLionProjects\OpenGLTemplate\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OpenGLTemplate.dir/glad/src/glad.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OpenGLTemplate.dir\glad\src\glad.c.obj   -c C:\Users\anders\CLionProjects\OpenGLTemplate\glad\src\glad.c
 
 CMakeFiles/OpenGLTemplate.dir/glad/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenGLTemplate.dir/glad/src/glad.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Anders\CLionProjects\OpenGLTemplate\glad\src\glad.c > CMakeFiles\OpenGLTemplate.dir\glad\src\glad.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\anders\CLionProjects\OpenGLTemplate\glad\src\glad.c > CMakeFiles\OpenGLTemplate.dir\glad\src\glad.c.i
 
 CMakeFiles/OpenGLTemplate.dir/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenGLTemplate.dir/glad/src/glad.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Anders\CLionProjects\OpenGLTemplate\glad\src\glad.c -o CMakeFiles\OpenGLTemplate.dir\glad\src\glad.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\anders\CLionProjects\OpenGLTemplate\glad\src\glad.c -o CMakeFiles\OpenGLTemplate.dir\glad\src\glad.c.s
 
 CMakeFiles/OpenGLTemplate.dir/glad/src/glad.c.obj.requires:
 
@@ -109,16 +109,16 @@ CMakeFiles/OpenGLTemplate.dir/glad/src/glad.c.obj.provides.build: CMakeFiles/Ope
 CMakeFiles/OpenGLTemplate.dir/stb_image.cpp.obj: CMakeFiles/OpenGLTemplate.dir/flags.make
 CMakeFiles/OpenGLTemplate.dir/stb_image.cpp.obj: CMakeFiles/OpenGLTemplate.dir/includes_CXX.rsp
 CMakeFiles/OpenGLTemplate.dir/stb_image.cpp.obj: ../stb_image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anders\CLionProjects\OpenGLTemplate\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OpenGLTemplate.dir/stb_image.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenGLTemplate.dir\stb_image.cpp.obj -c C:\Users\Anders\CLionProjects\OpenGLTemplate\stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\anders\CLionProjects\OpenGLTemplate\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OpenGLTemplate.dir/stb_image.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenGLTemplate.dir\stb_image.cpp.obj -c C:\Users\anders\CLionProjects\OpenGLTemplate\stb_image.cpp
 
 CMakeFiles/OpenGLTemplate.dir/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLTemplate.dir/stb_image.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Anders\CLionProjects\OpenGLTemplate\stb_image.cpp > CMakeFiles\OpenGLTemplate.dir\stb_image.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\anders\CLionProjects\OpenGLTemplate\stb_image.cpp > CMakeFiles\OpenGLTemplate.dir\stb_image.cpp.i
 
 CMakeFiles/OpenGLTemplate.dir/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLTemplate.dir/stb_image.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Anders\CLionProjects\OpenGLTemplate\stb_image.cpp -o CMakeFiles\OpenGLTemplate.dir\stb_image.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anders\CLionProjects\OpenGLTemplate\stb_image.cpp -o CMakeFiles\OpenGLTemplate.dir\stb_image.cpp.s
 
 CMakeFiles/OpenGLTemplate.dir/stb_image.cpp.obj.requires:
 
@@ -148,7 +148,7 @@ OpenGLTemplate.exe: glfw/src/libglfw3.a
 OpenGLTemplate.exe: CMakeFiles/OpenGLTemplate.dir/linklibs.rsp
 OpenGLTemplate.exe: CMakeFiles/OpenGLTemplate.dir/objects1.rsp
 OpenGLTemplate.exe: CMakeFiles/OpenGLTemplate.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Anders\CLionProjects\OpenGLTemplate\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable OpenGLTemplate.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\anders\CLionProjects\OpenGLTemplate\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable OpenGLTemplate.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OpenGLTemplate.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -167,6 +167,6 @@ CMakeFiles/OpenGLTemplate.dir/clean:
 .PHONY : CMakeFiles/OpenGLTemplate.dir/clean
 
 CMakeFiles/OpenGLTemplate.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Anders\CLionProjects\OpenGLTemplate C:\Users\Anders\CLionProjects\OpenGLTemplate C:\Users\Anders\CLionProjects\OpenGLTemplate\cmake-build-debug C:\Users\Anders\CLionProjects\OpenGLTemplate\cmake-build-debug C:\Users\Anders\CLionProjects\OpenGLTemplate\cmake-build-debug\CMakeFiles\OpenGLTemplate.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\anders\CLionProjects\OpenGLTemplate C:\Users\anders\CLionProjects\OpenGLTemplate C:\Users\anders\CLionProjects\OpenGLTemplate\cmake-build-debug C:\Users\anders\CLionProjects\OpenGLTemplate\cmake-build-debug C:\Users\anders\CLionProjects\OpenGLTemplate\cmake-build-debug\CMakeFiles\OpenGLTemplate.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/OpenGLTemplate.dir/depend
 
