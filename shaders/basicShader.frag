@@ -19,10 +19,10 @@ void main() {
     vec3 diffuse = diff * lightColor;
 
     vec3 camDir = normalize(cameraPos - fragPos);
-    vec3 v = 2 * norm * dot(-norm, -lightDir);
-//    vec3 r = reflect(lightDir);
-    vec3 r = -lightDir + v;
-    float spec = pow(max(dot(camDir, r), 0), 64);
+    vec3 r = reflect(-lightDir, norm);
+//    float spec = pow(max(dot(camDir, r), 0.0), 8);
+    vec3 h = normalize(-camDir - lightDir);
+    float spec = pow(max(dot(norm, h), 0.0), 16);
     vec3 specular = spec * lightColor;
 
     vec3 final = (ambient + diffuse + specular) * objectColor;

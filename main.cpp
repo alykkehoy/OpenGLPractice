@@ -144,10 +144,8 @@ int main()
     glUniformMatrix4fv(projLoc, 1, GL_FALSE, glm::value_ptr(proj));
 
     glm::vec3 lightColor(1.0f, 1.0f, 1.0f);
-    glm::vec3 objectColor(1.0f, 0.5f, 0.31f);
-    glm::vec3 result = lightColor * objectColor;
-
-
+//    glm::vec3 objectColor(1.0f, 0.5f, 0.31f);
+    glm::vec3 objectColor(0.0f, 1.0f, 1.0f);
 
     // render loop
     while (!glfwWindowShouldClose(window))
@@ -160,7 +158,7 @@ int main()
 
         //light position
         glm::vec3 lightPos(-1.2f, 2.0f, -2.0f);
-        lightPos = glm::vec4(lightPos, 1.0f) * glm::rotate(glm::mat4(), (float)glfwGetTime() * 1.0f, glm::vec3(0.0f, 0.0f, 1.0f));
+        lightPos = glm::vec4(lightPos, 1.0f) * glm::rotate(glm::mat4(), (float)glfwGetTime() * 0.5f, glm::vec3(0.0f, 0.0f, 1.0f));
 
         // render
         glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
@@ -181,6 +179,7 @@ int main()
         testShader.setVec3("objectColor", objectColor);
         testShader.setVec3("lightColor", lightColor);
         glm::mat4 model;
+        model = glm::scale(model, glm::vec3(10.0, 0.0, 10.0));
         testShader.setMat4("model", model);
         testShader.setVec3("lightPos", lightPos);
         testShader.setVec3("cameraPos", camera.Position);
@@ -189,9 +188,9 @@ int main()
         glBindVertexArray(VAO);
         glDrawArrays(GL_TRIANGLES, 0, 36);
 
-        model = glm::translate(model, glm::vec3(-1.5f, -0.5f, -1.0f));
-        testShader.setMat4("model", model);
-        glDrawArrays(GL_TRIANGLES, 0, 36);
+//        model = glm::translate(model, glm::vec3(-1.5f, -0.5f, -1.0f));
+//        testShader.setMat4("model", model);
+//        glDrawArrays(GL_TRIANGLES, 0, 36);
 
         //render light box
         lightShader.use();
